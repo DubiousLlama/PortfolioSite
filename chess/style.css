@@ -1,42 +1,42 @@
-.row{
-position:relative;
-margin-left:10%;
-margin-right:10%;
+
+.body {
+    background-image:url("https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-5.jpg");
 }
 
-.white{
-border: 1px solid black;
-width: 10%;
-height: 60px;
-background-color:white;
-float:left;
+.chessboard {
+    width: 40%;
+    height: 75%;
+    margin: auto;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: transparent;
+    background-image:url("https://www.myfreetextures.com/wp-content/uploads/2014/10/texture-seamless-wood-5.jpg");
+
+}
+.black {
+    float: left;
+    width: 12.5%;
+    height: 12.5%;
+    background-color: #999;
+}
+.white {
+    float: left;
+    width: 12.5%;
+    height: 12.5%;
+    background-color: #fff;
 }
 
-.black{
-border: 1px solid black;
-width: 10%;
-height: 60px;
-background-color:#787878;
-float:left;
-}
-
-.clear {
-clear:both; 
-}
-.footer {
-    border:solid 1px;
-    padding: 10px;
-    margin:10px;
-}
-
-.title {
+#title {
     position:fixed;
     top:0px;
     left:0px; 
     padding:10px;
     margin:0px;
     width:100%;
-    background-color:lightyellow;
+    background-color:black;
+    color: white;
     text-align:center; 
     z-index:10;
     font-family: 'JustLettersMedium'; 
@@ -45,11 +45,15 @@ clear:both;
     font-size:36px;
 }
 
-.img {
-    margin-left: 5px;
-    margin-top:10px;
+#footer {
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    background-color:black;
 }
 
-.body {
-    background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+img.piece {
+    display: block;
+    margin: 20%;
+    width: 60%;
 }
