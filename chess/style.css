@@ -4,7 +4,7 @@
 
 .chessboard {
     width: 40%;
-    height: 75%;
+    height: 720px;
     margin: auto;
     padding-right: 30%;
     padding-left: 30%;
@@ -16,13 +16,13 @@
 .black {
     float: left;
     width: 12.5%;
-    height: 12.5%;
+    height: 90px;
     background-color: #999;
 }
 .white {
     float: left;
     width: 12.5%;
-    height: 12.5%;
+    height: 90px;
     background-color: #fff;
 }
 
