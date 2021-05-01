@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body {
+    width: 90%;
+    height: 100vh;
+    background-image: url("../data/images/noah-buscher-x8ZStukS2PM-unsplash.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #40798C;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family:'DancingScriptRegular';
+    font-size: 400%;
+}
+#content {
+    overflow: auto;
+}
+
+#nav, #feature, #footer {
+    margin: 1%;
+}
+
+#footer {
+    background-color: #b8e1ff;
+}
+#nav {
+    background-color: #ecce8e;
+}
+
+.column1 {
+    background-color: #9EC1A3;
+}
+
+.column2 {
+    background-color: #70A9A1;
+}
+
+.column3 {
+    background-color: #1F363D;
+    margin-right: 0%;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav, #footer {
+    padding: 0.5em 0;
+}
+
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+#feature {
+    background-image: url("../data/images/noun_Plant_1604455.png");
+    background-color: #CFE0C3;
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;
+}
