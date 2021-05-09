@@ -14,13 +14,13 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2c343b;
   background-color: #f2f2f2;
 }
 
 a {
-  color: #d44457;
+  color: #33c1cf;
   text-decoration: none;
 }
 
@@ -552,7 +552,6 @@ Slider navigation
 .cd-slider-nav li {
   display: inline-block;
   width: 60px;
-  float: left;
 }
 .cd-slider-nav li.selected a {
   color: #2c343b;
