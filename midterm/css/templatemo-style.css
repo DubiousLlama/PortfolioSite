@@ -986,10 +986,13 @@ footer .connect-us a p {
 	.navbar-nav {
 		margin-top: 0px;
 		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.navbar-inverse .navbar-nav>li {
-		margin-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
