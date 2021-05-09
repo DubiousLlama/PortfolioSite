@@ -17,9 +17,10 @@ jQuery(document).ready(function($) {
           
       });
 
-
+        //set header
         var top_header = $('.parallax-content');
-        top_header.css({'background-position':'center center'}); // better use CSS
+        // better use CSS
+        top_header.css({'background-position':'center center'}); 
 
         $(window).scroll(function () {
         var st = $(this).scrollTop();
