@@ -707,6 +707,13 @@ footer .logo-ft {
 	letter-spacing: 1px;
 }
 
+footer .line-dec {
+	width: 270px;
+	height: 1px;
+	background-color: #fff;
+	margin: 25px auto 20px 0px;
+}
+
 footer .logo p {
 	font-weight: 300;
 	font-size: 12px;
@@ -776,6 +783,10 @@ footer .contact-info ul li {
 	margin-bottom: -15px;
 }
 
+footer p {
+	color: #FFF;
+}
+
 footer .contact-info ul li em {
 	font-style: normal;
 	font-weight: 500;
@@ -796,7 +807,7 @@ footer .connect-us ul li {
 	margin-right: 2px;
 }
 
-footer .connect-us ul li a {
+footer .connect-us a p {
 	display: inline-block;
 	width: 28px;
 	height: 28px;
@@ -804,14 +815,40 @@ footer .connect-us ul li a {
 	text-align: center;
 	background-color: #fff;
 	border-radius: 50%;
-	color: #373a3c;
 	font-size: 15px;
 	transition: all 0.3s;
+	color: #FFF;
 }
-footer .connect-us ul li a:hover {
+
+.page-section .connect-us ul li a:hover {
 	background-color: #f7c552;
 }
 
+
+.page-section .connect-us ul li {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.page-section .connect-us ul li a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #373a3c;
+	font-size: 30px;
+	transition: all 0.3s;
+}
+.page-section .connect-us ul li a:hover {
+	background-color: #f7c552;
+}
+
+.page-section p {
+	color: #fff;
+}
 
 /* RESPONSIVE */
 
@@ -886,7 +923,9 @@ footer .connect-us ul li a:hover {
 
 	#contact-us .section-heading p {
 		padding: 0px 10%;
+		color: #FFF;
 	}
+
 
 	footer {
 		text-align: center;
