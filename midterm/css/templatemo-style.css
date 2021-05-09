@@ -168,6 +168,12 @@ p {
 	background-color: #f7c552;
 }
 
+.coursework {
+	height: 100vh;
+	padding: 10vh 10vh 10vh 40vh;
+	overflow: auto;
+}
+
 .navbar-toggle {
     position: relative;
     float: right;
@@ -211,7 +217,7 @@ p {
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/banner_bg.jpg);
+  	background-image: url(../img/Thomas_Allen_BC_4-24-21_0638.jpg);
   	vertical-align: middle;
 }
 
@@ -250,7 +256,7 @@ p {
 
 #about {
 	padding: 150px 0px;
-	background-image: url(../img/about-bg.jpg);
+	background-image: url(../img/Seamus_Allen_BC_4-24-21_4204.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
