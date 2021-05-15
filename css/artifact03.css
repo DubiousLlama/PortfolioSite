@@ -1,19 +1,27 @@
-	#upLeft {
+#upLeft {
     float: left;
-    
-    }
-    #downLeft {
+    font-size: larger;
+}
+
+#downLeft {
     float: left;
-    }
-    #upRight {
-    
+    font-size: larger;
+}
+
+#upRight {
     float: left;
-    }
-    
-    #downRight {
-    
+    font-size: larger;
+}
+
+#downRight {
     float: left;
-    }
-    .clear {
+    font-size: larger;
+}
+
+.clear {
     clear: both;
-    }
+}
+
+.space {
+    color:white;
+}
