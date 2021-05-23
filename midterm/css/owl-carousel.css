@@ -42,9 +42,6 @@
 }
 
 .owl-controls {
-  @media (max-width: @screen-sm-max) {
-    top: -120px;
-  }
   top: -200px;
   width: 100%;
   text-align: center;
