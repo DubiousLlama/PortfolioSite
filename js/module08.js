@@ -1,6 +1,19 @@
+newitem.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        addItem(e);
+        newitem.value = null;
+    }
+});
+
 function addItem() {
 
-    var addition = document.getElementById(newitem)
+    var addition = document.getElementById("newitem").value;
+    console.log(addition);
+
+    if (addition === "") {
+        document.getElementById("warnspot").innerHTML = "Please enter a value.";
+        return false;
+    };
 
     // Create a new element and store it in a variable.
     var newEl = document.createElement('li');
@@ -13,6 +26,8 @@ function addItem() {
 
     // Find the position where the new element should be added.
     var position = document.getElementsByTagName('ul')[0];
+
+    document.getElementById("warnspot").innerHTML = "";
 
     // Insert the new element into its position.
     position.appendChild(newEl);
