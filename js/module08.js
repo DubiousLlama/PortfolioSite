@@ -1,7 +1,6 @@
 newitem.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
         addItem(e);
-        newitem.value = null;
     }
 });
 
@@ -31,4 +30,6 @@ function addItem() {
 
     // Insert the new element into its position.
     position.appendChild(newEl);
+
+    newitem.value = null;
 };
