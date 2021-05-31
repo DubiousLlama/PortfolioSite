@@ -1,10 +1,6 @@
 
-// This is messy but I'm done dealing with it
-function clearing(){
-    setTimeout(clearAll, 5);
-}
-
 function clearAll(){
+    event.stopPropagation();
     document.querySelectorAll('.dot').forEach(e => e.remove());
 }
 
@@ -21,19 +17,13 @@ function clicked() {
 
 addEventListener("click", clicked, false);
 clear = document.getElementById("clear");
-clear.addEventListener("click", clearing, false);
+clear.addEventListener("click", clearAll, false);
 
 
+/* This was very bad my apologies for writing this nonsense
+event.stopPropogation I'm glad we found each other.
 
-// Let us stop the propagation of events
-/*
-event.stopPropagation();
-  });
-  addEventListener("click", function(event) {
-    var dot = document.createElement("div");
-    dot.className = "dot";
-    dot.style.left = (event.pageX - 4) + "px";
-    dot.style.top = (event.pageY - 4) + "px";
-    document.body.appendChild(dot);
-});
+function clearing(){
+    setTimeout(clearAll, 5);
+}
 */
