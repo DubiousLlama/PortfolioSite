@@ -12,7 +12,11 @@ var index=0;
 var autoSlideActive = true;
 var paused = false;
 
+var bg = document.querySelector("body");
+bg.style.setProperty("--image-url", "url(../data/images/slideshow00.jpg)");
+
 function updateImage(){
+    bg.style.setProperty("--image-url", "url(../" + myImages[index] + ")");
     document.getElementById("slideshow").src = myImages[index];
     document.getElementById("slideshow").alt= captionImages[index];
     document.getElementById("caption").textContent = captionImages[index]; 

@@ -1,6 +1,25 @@
+body::after {
+    content: "";
+    background: var(--image-url);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
 .container {
     display: flex;
     justify-content: center;
+}
+
+#allbox {
+    padding-bottom: 1.5vh;
+    background-color: rgba(255,255,255,0.66);
 }
 
 h1, p {
