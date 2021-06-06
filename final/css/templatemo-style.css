@@ -22,9 +22,9 @@ ul {
 }
 
 p {
-	color: #7a7a7a;
-	font-size: 14px;
-	line-height: 24px;
+	color: black;
+	font-size: 1em;
+	line-height: 1.75em;
 }
 
 .parallax-content {
@@ -36,7 +36,7 @@ p {
 .primary-white-button a {
 	display: inline-block;
 	background-color: #fff;
-	font-size: 13px;
+	font-size: 0.9em;
 	padding: 12px 18px;
 	color: #121212;
 	font-weight: 500;
@@ -62,7 +62,7 @@ p {
 .pop-button h4 {
 	display: inline-block;
 	background-color: #33c1cf;
-	font-size: 13px!important;
+	font-size: 0.9em!important;
 	padding: 12px 18px;
 	color: #fff;
 	font-weight: 400!important;
@@ -86,7 +86,7 @@ p {
     background-color:transparent;  
     
     text-align: center;
-    line-height: 40px;
+    line-height: 4em;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
@@ -94,7 +94,7 @@ p {
 }
 
 .navbar-brand {
-	line-height: 80px;
+	line-height: 3.25em;
 	padding: 0px;
 }
 
@@ -104,7 +104,7 @@ p {
 	font-weight: 300;
 	text-transform: uppercase;
 	text-shadow: none;
-	line-height: 80px;
+	line-height: 6em;
 	padding: 0px;
 	letter-spacing: 0.5px;
 }
@@ -114,7 +114,7 @@ p {
 }
 .header .navbar-nav>li>a {
 	font-family: 'Roboto', arial, sans-serif;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
@@ -124,7 +124,7 @@ p {
 
 .header.active .navbar-nav>li>a {
 	font-family: 'Roboto', arial, sans-serif;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
@@ -140,7 +140,7 @@ p {
 }
 .navbar-brand {
 	font-family: 'Roboto', sans-serif;
-	font-size: 25px;
+	font-size: 1.75em;
 	text-transform: uppercase;
 	color: #fff!important;
 	transition: all 0.5s;
@@ -149,7 +149,7 @@ p {
 .navbar-brand em {
 	font-style: normal;
 	color: #f7c552;
-	font-size: 32px;
+	font-size: 2em;
 }
 .header.active .navbar-brand {
 	color: #121212!important;
@@ -235,7 +235,7 @@ p {
 }
 
 .baner-content .text-content h2 {
-	font-size: 36px;
+	font-size: 3em;
 	font-weight: 400;
 	color: #fff;
 }
@@ -253,13 +253,13 @@ p {
 
 .baner-content .text-content p {
 	color: #fff;
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 1em;
+	line-height: 2em;
 	padding: 0px 25%;
 }
 
 .baner-content .text-content .primary-white-button {
-	margin-top: 25px;
+	margin-top: 1.75em;
 }
 
 
@@ -290,7 +290,7 @@ p {
 #about .service-item h4 p{
 	margin-bottom: 30px;
 	margin-top: 45px;
-	font-size: 17px;
+	font-size: 1.5em;
 	font-weight: 500;
 	color: #fff;
 	letter-spacing: 1px;
@@ -333,7 +333,7 @@ p {
   cursor: pointer;
   color: #fff;
   display: inline-block;
-  font-size: 15px;
+  font-size: 1.1em;
   text-transform: capitalize;
   font-weight: 500;
   left: 0.5px;
@@ -350,7 +350,7 @@ p {
 #portfolio .section-heading {
 	padding-top: 100px;
 	padding-bottom: 200px;
-	background-color: #33c1cf;
+	background-color: #144c52;
 	height: 532px;
 	margin-left: -100vh;
 	padding-left: 100vh;
@@ -362,7 +362,7 @@ p {
 
 #portfolio .section-heading h4 {
 	margin-top: 0px;
-	font-size: 20px;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
@@ -393,7 +393,7 @@ p {
 
 #testimonial .testimonials-item h4 {
 	color: #fff;
-	font-size: 17px;
+	font-size: 1.3em;
 	font-weight: 500;
 	letter-spacing: 0.5px;
 	margin-top: 30px;
@@ -401,13 +401,13 @@ p {
 }
 
 #testimonial .testimonials-item span {
-	font-size: 13px;
+	font-size: 1em;
 	color: #fff;
 	letter-spacing: 0.5px;
 }
 
 #testimonial .testimonials-item p {
-	font-size: 16px;
+	font-size: 1.1em;
 	color: #9a9a9a;
 	font-style: italic;
 	font-weight: 300;
@@ -488,7 +488,7 @@ p {
 
 #blog .section-heading h4 {
 	margin-top: 0px;
-	font-size: 20px;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
@@ -530,7 +530,7 @@ p {
   text-transform:capitalize;
   letter-spacing: 0.5px;
   color:#121212;
-  font-size: 15px;
+  font-size: 1em;
   font-weight: 500;
   padding: 12px 12px;
   background-color: #fff;
@@ -554,7 +554,7 @@ p {
   text-align: left;
 }
 .tabgroup .text-content h4 {
-	font-size: 17px;
+	font-size: 1.2em;
 	font-weight: 500;
 	letter-spacing: 0.5px;
 	color: #121212;
@@ -562,11 +562,11 @@ p {
 	margin-bottom: 5px;
 }
 .tabgroup .text-content span {
-	font-size: 13px;
+	font-size: 1em;
 	color: #33c1cf;
 }
 .tabgroup .text-content a {
-	font-size: 13px;
+	font-size: 1em;
 	color: #33c1cf;
 	text-decoration: none;
 }
@@ -588,7 +588,7 @@ p {
 
 #contact-us .section-heading h4 {
 	margin-top: 0px;
-	font-size: 20px;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
@@ -614,7 +614,7 @@ p {
 #contact input {
   border-radius: 0px;
   padding-left: 15px;
-  font-size: 13px;
+  font-size: 1em;
   color: #232323;
   background-color: rgba(250, 250, 250, 1);
   outline: none;
@@ -630,7 +630,7 @@ p {
   border-radius: 0px;
   padding-left: 15px;
   padding-top: 10px;
-  font-size: 13px;
+  font-size: 1em;
   color: #232323;
   background-color: rgba(250, 250, 250, 1);
   outline: none;
@@ -645,7 +645,7 @@ p {
 #contact button {
   display: inline-block;
 	background-color: #f7c552;
-	font-size: 13px;
+	font-size: 1em;
 	padding: 12px 18px;
 	color: #fff;
 	font-weight: 500;
@@ -715,7 +715,7 @@ footer .logo-ft {
 	margin-top: 15px;
 	text-decoration: none;
 	color: #fff!important;
-	font-size: 21px;
+	font-size: 1.3em;
 	font-weight: 900;
 	text-transform: uppercase;
 	text-shadow: none;
@@ -731,7 +731,7 @@ footer .line-dec {
 
 footer .logo p {
 	font-weight: 300;
-	font-size: 12px;
+	font-size: 1em;
 	color: #fff;
 	margin-bottom: -10px;
 	letter-spacing: 0.5px;
@@ -752,7 +752,7 @@ footer .logo a:hover {
 
 footer .location h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
@@ -761,7 +761,7 @@ footer .location h4 {
 }
 
 footer .location ul li {
-	font-size: 13px;
+	font-size: 1em;
 	color: #fff;
 	display: inline-block;
 	line-height: 24px;
@@ -778,7 +778,7 @@ footer .location ul li:first-child {
 
 footer .contact-info h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
@@ -787,7 +787,7 @@ footer .contact-info h4 {
 }
 
 footer .contact-info ul li {
-	font-size: 13px;
+	font-size: 1em;
 	color: #fff;
 	display: inline-block;
 	line-height: 24px;
@@ -802,6 +802,10 @@ footer p {
 	color: #FFF;
 }
 
+footer a {
+	text-decoration: underline;
+}
+
 footer .contact-info ul li em {
 	font-style: normal;
 	font-weight: 500;
@@ -809,7 +813,7 @@ footer .contact-info ul li em {
 
 footer .connect-us h4 {
 	margin-top: 0px;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 500;
 	color: #fff;
 	text-transform: uppercase;
@@ -830,7 +834,7 @@ footer .connect-us a p {
 	text-align: center;
 	background-color: #fff;
 	border-radius: 50%;
-	font-size: 15px;
+	font-size: 1.1em;
 	transition: all 0.3s;
 	color: #FFF;
 }
@@ -854,7 +858,7 @@ footer .connect-us a p {
 	background-color: #fff;
 	border-radius: 50%;
 	color: #373a3c;
-	font-size: 30px;
+	font-size: 3em;
 	transition: all 0.3s;
 }
 .page-section .connect-us ul li a:hover {
@@ -1003,7 +1007,7 @@ footer .connect-us a p {
 
 	.navbar-inverse .navbar-nav>li>a {
 		font-family: 'Roboto', sans-serif!important;
-		line-height: 55px;
+		line-height: 5em;
 		color: #343434!important;
 	}
 
