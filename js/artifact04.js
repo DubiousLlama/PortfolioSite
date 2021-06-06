@@ -320,7 +320,7 @@ function zipcode(){
             console.log("Email invalid — empty")
             
         } else if (zip.match(zipcodeformat)===null) {
-            errorMessages += "<p>Please enter a valid phone number</p>";
+            errorMessages += "<p>Please enter a valid zip code</p>";
             console.log("Zip code invalid — [0-9] and [-] only, 5-digit or 9-digit variant")
         } else {
             validZip = true;
