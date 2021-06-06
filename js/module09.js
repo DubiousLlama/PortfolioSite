@@ -1,4 +1,3 @@
-
 function clearAll(){
     event.stopPropagation();
     document.querySelectorAll('.dot').forEach(e => e.remove());
