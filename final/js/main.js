@@ -97,6 +97,4 @@ jQuery(document).ready(function($) {
             transitionSpeed: 400
         });
 
-
-
 });
